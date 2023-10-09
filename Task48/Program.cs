@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine();
+Console.WriteLine("Задача 48");
+Console.WriteLine();
 
 
 // Задача 48: Задайте двумерный массив размера m на n,
@@ -9,14 +11,6 @@ Console.WriteLine("Hello, World!");
 // 0 1 2 3   1 4 4 9 2 
 // 1 2 3 4    5 9 2 3 
 // 2 3 4 5   6 4 4 4 4 
-
-// Задача 48: Задайте двумерный массив размера m на n,
-// каждый элемент в массиве находится по формуле: Amn = m+n.
-// Выведите полученный массив на экран.
-// m = 3, n = 4.
-// 0 1 2 3
-// 1 2 3 4
-// 2 3 4 5
 
 int[,] CreateMatrixSumIndexes(int rows, int columns)
 {
@@ -52,4 +46,5 @@ void PrintMatrix(int[,] matrix)
 int[,] array2d = CreateMatrixSumIndexes(10, 10);
 PrintMatrix(array2d);
 
+Console.WriteLine();
 
