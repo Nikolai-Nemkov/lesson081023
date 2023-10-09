@@ -48,6 +48,7 @@ void PrintArray(int[,] array)
         meaning = meaning / a;
         Console.Write(meaning + "; ");
     }
+    
 }
 PrintArray(numbers);
 Console.WriteLine();
