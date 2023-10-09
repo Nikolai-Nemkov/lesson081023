@@ -1,10 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine();
+Console.WriteLine("Задача 49");
+Console.WriteLine();
 
 
 // Задача 49: Задайте двумерный массив. Найдите элементы, у
 // которых оба индекса чётные, и замените эти элементы на их
-// вадраты.
+// kвадраты.
 // 1 4 7 2
 // 5 9 2 3
 // 8 4 2 4 
@@ -50,3 +52,6 @@ Console.WriteLine();
 
 ReplaceCurrentElementsOnSquareVer2(array2d);
 PrintMatrix(array2d);
+
+Console.WriteLine();
+
