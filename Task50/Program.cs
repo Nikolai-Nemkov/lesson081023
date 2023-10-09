@@ -55,6 +55,7 @@ void PrintArray(int[,] array)
     }
 }
 PrintArray(numbers);
+
 Console.WriteLine();
 
 
