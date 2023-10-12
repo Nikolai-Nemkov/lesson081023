@@ -16,7 +16,6 @@ Console.WriteLine();
 
 // CОЗДАНИЕ МАТРИЦЫ ДВУ МЕРНОГО МАССИВА заполненного 0 - ми
 
-
 int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)  // Great - большой
 {
     //                        0       1
