@@ -36,6 +36,7 @@ void PrintArray(int[,] array)
             Console.Write($"{array[i, j], 6}");
         }
         Console.Write("  ]");
+        Console.WriteLine();
         Console.WriteLine("");
     }
     for (int j = 0; j < numbers.GetLength(1); j++)
@@ -47,8 +48,12 @@ void PrintArray(int[,] array)
         }
         meaning = meaning / a;
         Console.Write(meaning + "; ");
+    
     }
+    
     
 }
 PrintArray(numbers);
-Console.WriteLine();
+
+
+
