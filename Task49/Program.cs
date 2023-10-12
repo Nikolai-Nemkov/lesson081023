@@ -40,6 +40,7 @@ void PrintMatrix(int[,] matrix)
 
 /*      Вариант работы с нечтныыми индексами
 
+
 void ReplaceCurrentElementsOnSguare(int[,] matrix)   // перевод: Заменить текущие элементы на квадрат.
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
