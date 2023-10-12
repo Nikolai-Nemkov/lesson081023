@@ -11,6 +11,7 @@ Console.WriteLine();
 // 5 9 2 3
 // 8 4 2 4   1, 7 -> такого элемента в массиве нет/
 
+
 Console.WriteLine("введите номер строки");
 int n = Convert.ToInt32(Console.ReadLine());
 
