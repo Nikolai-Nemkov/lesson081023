@@ -26,7 +26,6 @@ int[,] MatrixSumIndexes(int rows, int columns)
 
     return matrix;
 }
-
 void PrintMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
